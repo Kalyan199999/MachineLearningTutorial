@@ -1,0 +1,40 @@
+ Data --> text,Image,audio,videos
+ Data Preprocessinng is a process to covert raw data into meaning full data using different techniques
+
+ Data in the real world is dirty --> incomplete , noisy ,Incosistent ,duplicate
+ Data Quality Elements --> Accuracy ,Completeness ,consistency ,Believability ,Interpretability
+ 
+ Steps:
+ 1.Data Cleaning
+ 2.Data Integration
+ 3.Data Reduction
+ 4.Data Transformation
+ 5.Data Discretization
+ 
+ 1.Data Cleaning:
+    Means fill in missing vlaues, smooth out noise while identifying outliers and correct inconsistencies in the data.
+    
+ 2.Data Integration:
+    It is a technique to merge data from multiple sources into a coherent data store such as a data warehouse.
+    
+ 3.Data Reduction:
+    It is a technique used to reduce the data size by aggregating, eleminating redundant features , or clustering for instance.
+ 
+ 4.Data Transformation:
+    Means Data are transformed or consolidated into forms appropriate for ML model trainig such as normalization may be applied where data 
+    are scaled to fall within a smaller range like 0.0 to 1.0.
+    4.1.Aggration
+    4.2.Feature type coonversion
+    4.3.Normalization
+    4.4.Attribute / feature construction
+ 
+ 5.Data Discretization:
+    Technique transforms numeric data by mapping values to interval or concept labels.
+    It can be used to reduce the number of values for a given continuesattribute by dividing the range of attribute into intervals.
+    Techniques:
+    1.Binning
+    2.Histogram Analysis
+    3.Clustering analysis
+    4.Decision-tree analysis
+    5.Correlation anlaysis
+    
